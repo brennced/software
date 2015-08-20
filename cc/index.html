@@ -31,7 +31,7 @@
 			function bigPic(e) {
 				var f = "<!DOCTYPE html>\n<html>\n\t<body onload='document.getElementById(\"im\").style.left=\"calc(50% - " + e.clientWidth / 2 + "px)\";document.getElementById(\"im\").style.top=\"calc(50% - " + e.clientHeight / 2 + "px)\"'>\n\t\t<img id='im' style='cursor:zoom-out;position:absolute' src='" + e.src +"' onclick='window.close()'>\n\t</body>\n</html>";
 				var w = "data:text/html;base64," + window.btoa(f);
-				NewWin = window.open(w,'Big picture','toolbar=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=600,height=300');
+				NewWin = window.open(w,'Big picture','toolbar=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=960,height=480');
 			}
 		</script>
 	</head>
