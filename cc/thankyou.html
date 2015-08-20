@@ -1,1 +1,57 @@
-
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Brennced">
+		<title>ControllerController</title>
+		<link rel="icon" href="https://cloud.githubusercontent.com/assets/11354803/9380740/71062a3a-4732-11e5-8ca5-2d802941f4b7.png" type="image/png">
+		<link rel="shortcut icon" href="https://cloud.githubusercontent.com/assets/11354803/9380740/71062a3a-4732-11e5-8ca5-2d802941f4b7.png" type="image/png">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(function () {
+					$(window).scroll(function () {
+						if ($(this).scrollTop() > 100) {
+							document.getElementById('totop').style.bottom = '15px';
+						} else {
+							document.getElementById('totop').style.bottom = '-50px';
+						}
+					});
+			
+					$('#totop').click(function () {
+						$('body,html').animate({
+							scrollTop: 0
+						}, 500);
+						return false;
+					});
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1><img src="https://cloud.githubusercontent.com/assets/11354803/9380334/eeffbfda-472f-11e5-8678-0b7500cf9e22.png" style="vertical-align:text-bottom">&nbsp;ControllerController</h1>
+		</header>
+		<hr class="space-top" id="top"></hr>
+		<table id="big">
+			<tr>
+				<td>
+					<center>
+					  <h2>Thanks for using ControllerController</h2>
+					  <a href="/software/cc/" class="button">Go back</a>
+					  <br /><br />
+					  <span class="semi-small">
+					  	You download is not starting? Click <a href="https://www.dropbox.com/s/dlraxp3fr4b9evj/ControllerController.zip?dl=1" target="_blank">here</a>.
+					  </span>
+					</center>
+					<noscript>
+						<a href="#top">Back to top</a>
+					</noscript>
+				</td>
+			</tr>
+		</table>
+		<iframe src="https://www.dropbox.com/s/dlraxp3fr4b9evj/ControllerController.zip?dl=1" style="display:none"></iframe>
+		<a id="totop" href="#top" class="button" title="Back to top">&#9650;</a>
+	</body>
+</html>
