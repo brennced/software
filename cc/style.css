@@ -1,1 +1,104 @@
-
+			* {
+				font-family: 'Arial', sans-serif;
+			}
+			.button {
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				-ms-appearance: none;
+				appearance: none;
+				background-color: #005895;
+				background-image: -webkit-linear-gradient(top, #0096FF 0%, #005794 100%);
+				background-image: -moz-linear-gradient(top, #0096FF 0%, #005794 100%);
+				background-image: -ms-linear-gradient(top, #0096FF 0%, #005794 100%);
+				background-image: linear-gradient(#0096FF, #005794);
+				border: 1px solid #002B49;
+				cursor: pointer;
+				border-radius: 5px;
+				font-family: 'Segoe UI', 'Arial', sans-serif;
+				color: white;
+				font-size: 16px;
+				padding: 3px 8px;
+				margin: 0px;
+				box-shadow: 0px 1px 1px rgba(255,255,255,0.33) inset, 0px -1px 1px rgba(0,0,0,0.25) inset;
+				text-decoration: none;
+				text-shadow: 0px 1px 0px rgba(0,0,0,0.33);
+			}
+			button:after {
+				display: none !important;
+			}
+			.button:hover {
+				background-image: -webkit-linear-gradient(left, #329AFF 0%, #326198 100%);
+				background-image: -moz-linear-gradient(left, #329AFF 0%, #326198 100%);
+				background-image: -ms-linear-gradient(left, #329AFF 0%, #326198 100%);
+				background-image: linear-gradient(#329AFF, #326198);
+				text-decoration: none !important;
+			}
+			.button:active {
+				background-image: -webkit-linear-gradient(left, #003E69 0%, #006AB5 100%);
+				background-image: -moz-linear-gradient(left, #003E69 0%, #006AB5 100%);
+				background-image: -ms-linear-gradient(left, #003E69 0%, #006AB5 100%);
+				background-image: linear-gradient(#003E69, #006AB5);
+				box-shadow: 0px -1px 1px rgba(255,255,255,0.2) inset, 0px 1px 1px rgba(0,0,0,0.25) inset;
+			}
+			.small {
+				font-size: 50%;
+			}
+			.semi-small {
+				font-size: 75%;
+			}
+			.smallcaps {
+				font-variant: small-caps;
+			}
+			header {
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				width: 100%;
+				height: 64px;
+				line-height: 13px;
+				background-color: rgb(240,240,240);
+				text-align: center;
+				box-shadow: 0px 1px 2px rgba(0,0,0,0.33);
+				z-index: 100;
+			}
+			hr.space-top {
+				margin-bottom: 70px;
+			}
+			table#big {
+				width: 100%;
+				table-layout: fixed;
+			}
+			td {
+				vertical-align: top;
+			}
+			a {
+				color: #005895;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			h3 {
+				margin: 0px;
+				padding: 0px;
+				display: block;
+			}
+			#totop {
+				position: fixed;
+				right: 15px;
+				bottom: -50px;
+				-webkit-transition: bottom 0.3s ease;
+				-moz-transition: bottom 0.3s ease;
+				-ms-transition: bottom 0.3s ease;
+				transition: bottom 0.3s ease;
+			}
+			a[href*="//"]:not([href*="NFB429B.HTML"]):not([href*="dropbox.com"]):after {
+				content: ' ';
+				display: inline-block;
+				width: 10px;
+				height: 12px;
+				background-image: url(https://cloud.githubusercontent.com/assets/11354803/9380308/ac2cdc42-472f-11e5-8e7d-2d1122c97456.png);
+			}
+			img[onclick*="bigPic"] {
+				cursor: zoom-in;
+			}
